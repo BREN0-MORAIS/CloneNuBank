@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#8a05be" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NuBank.Apresentacao.Slider3">
+    
+    
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Image Source="NUbank.png" HeightRequest="200" Margin="0,200,0,0"/>
+            <Button Text="Vamos Lá!!"  BackgroundColor="#590da5" FontSize="20" FontFamily="Arial" WidthRequest="350" TextColor="White"
+              Margin="0,0,0,0"
+             HorizontalOptions="CenterAndExpand"
+                    Clicked="PrincipalNubank"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
